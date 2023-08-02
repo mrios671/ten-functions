@@ -38,7 +38,7 @@
         isFalse("Banana")          // false
         isFalse([1, 2])            // false
 
-3. Define a function named `not` that takes in any input and returns the boolean opposite of the provided input.
+3. *Define a function named `not` that takes in any input and returns the boolean opposite of the provided input.*
         
         not(false)                  // true
         not(0)                      // true

@@ -2,7 +2,7 @@
 
   "use strict";
 
-  /** 
+  /**
    * Tests for the following functions. See README.md for more detail.
    * isTrue
    * isFalse
@@ -15,7 +15,7 @@
    * and
    * concat
    */
-   
+
 
   const randomBoolean = Boolean(Math.round(Math.random()))
   const randomNumber = Math.ceil(Math.random() * 100)
@@ -39,7 +39,7 @@
     it('should return "truetrue" when passed true and true', () => {
       expect(concat(true, true)).toBe("truetrue")
     })
-  }) 
+  })
 
   describe('and', () => {
     it('should be a defined function', () => {
@@ -77,7 +77,7 @@
     })
     it('should return "hello" when passed the inputs "hello" and "world" in that order', () => {
       expect(or("hello", "world")).toBe("hello")
-    })    
+    })
   })
 
   describe('isEqual', () => {
